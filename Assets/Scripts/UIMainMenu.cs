@@ -20,10 +20,10 @@ public class UIMainMenu : MonoBehaviour
     public void dropChanged() {
         switch(_dropChapter.value){
             case 1:
-                ScenesManager.Instance.LoadScene(ScenesManager.Scene.HuntIntro);
+                ScenesManager.Instance.LoadScene(ScenesManager.Scene.Hunt01);
                 break;
             case 2: 
-                ScenesManager.Instance.LoadScene(ScenesManager.Scene.Hunt01);
+                ScenesManager.Instance.LoadScene(ScenesManager.Scene.Hunt02);
                 break;
             case 3:
                 ScenesManager.Instance.LoadScene(ScenesManager.Scene.Hunt02);

@@ -29,7 +29,6 @@ public class ScenesManager : MonoBehaviour
 
     public enum Scene {
         MainMenuScene, //index 0
-        HuntIntro,
         Hunt01,  //index 1
         Hunt01AR,
         Hunt02,

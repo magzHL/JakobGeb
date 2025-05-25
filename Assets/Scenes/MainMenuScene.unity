@@ -876,11 +876,9 @@ MonoBehaviour:
     m_Options:
     - m_Text: "W\xE4hle aus ..."
       m_Image: {fileID: 0}
-    - m_Text: Intro
+    - m_Text: Wohnzimmer
       m_Image: {fileID: 0}
-    - m_Text: GPS1
-      m_Image: {fileID: 0}
-    - m_Text: GPS2
+    - m_Text: Wendehammer
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2482,7 +2480,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TestApp
+  m_text: Jakobs Schnitzeljagd
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

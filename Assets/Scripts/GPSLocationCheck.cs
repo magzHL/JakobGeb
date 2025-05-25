@@ -13,6 +13,7 @@ public class GPSLocationCheck : MonoBehaviour
     public double gpsLat;
     public double gpsLong;
     private char unit = 'K';
+    public string _hinweis;
 
     bool createdARO = false;
 
@@ -120,7 +121,7 @@ public class GPSLocationCheck : MonoBehaviour
 
             //double distanceBetween = distance((double)currLoc.lat, (double)currLoc.lon, (double)53.856562969033305, (double)10.697463738097692, 'K');
             double distanceBetween = distance((double)currLoc.lat, (double)currLoc.lon, (double)gpsLat, (double)gpsLong, 'K');
-            debugTxt.text += "\nDistance: " + distanceBetween;
+            debugTxt.text += "Abstand:" + distanceBetween;
 
             if (distanceBetween < 0.1)
             {
@@ -131,6 +132,7 @@ public class GPSLocationCheck : MonoBehaviour
             else
             {
                 insideDistance = false;
+                debugTxt.text += "\nIhr müsst näher ran zum "+_hinweis;
                 _playButton.gameObject.SetActive(false);
             }
 
