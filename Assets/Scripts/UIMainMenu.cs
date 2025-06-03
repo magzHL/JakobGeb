@@ -26,7 +26,7 @@ public class UIMainMenu : MonoBehaviour
                 ScenesManager.Instance.LoadScene(ScenesManager.Scene.Hunt02);
                 break;
             case 3:
-                ScenesManager.Instance.LoadScene(ScenesManager.Scene.Hunt02);
+                ScenesManager.Instance.LoadScene(ScenesManager.Scene.Hunt03);
                 break;
             /**
             case 4:

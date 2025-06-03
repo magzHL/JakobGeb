@@ -32,9 +32,10 @@ public class ScenesManager : MonoBehaviour
         Hunt01,  //index 1
         Hunt01AR,
         Hunt02,
-        Hunt02AR
-        /**
+        Hunt02AR,
         Hunt03,
+        Hunt03AR
+        /**
         Hunt04,
         Hunt05,
         HuntDone
